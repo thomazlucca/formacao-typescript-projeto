@@ -1,0 +1,11 @@
+{   
+    "compilerOptions": {
+        "target": "ES2022", // qual versão do javascript ele vai compilar
+        "outDir": "./dist/js/", //diretório que irá gerar o arquivo compilado
+        "noEmitOnError": true //só gerar o arquivo se não tiver erro
+    },
+
+    "include": [
+        "./src/**/*"
+    ]
+}
